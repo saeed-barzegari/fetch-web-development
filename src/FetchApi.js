@@ -23,6 +23,8 @@ const FetchApi = () => {
                 <div>
                     {apiData.map((item) => (
                         <div className="item" key={item.id}>
+                            <p>Id: {item.id}</p>
+                            <p>User Id: {item.userId}</p>
                             <p>Title: {item.title}</p>
                             <p>Body: {item.body}</p>
                         </div>
